@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo-icon{
+    height: 48px;
+    width: 48px;
+    background-image: url();
+    background-size: cover;
+    border-radius: 50%;
+}
