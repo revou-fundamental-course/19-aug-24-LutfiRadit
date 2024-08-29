@@ -16,8 +16,7 @@
 
         <section class="nav-container">
             <a href="#" class="nav-item">Home</a>
-            <a href="#" class="nav-item">Our Profile</a>
-            <a href="#" class="nav-item">Achievement</a>
+            <a href="#" class="nav-item">Our Lesson</a>
             <a href="#" class="nav-item">Message Us</a>
         </section>
     </nav>
@@ -27,10 +26,10 @@
     <main>
         <article>
             <header>
-                <h1>Welcome user, to our website</h1>
+                <h1>Helllo Sailors, welcome to our Navy Warship League</h1>
             </header>
 
-            <p></p>
+            <p>Here you gonna acknowledge Warship Design, Tactics, and Armament</p>
 
             <div class="banner-img"></div>
         </article>
@@ -39,39 +38,69 @@
 
         <section>
             <header>
-                <h1>Our Profile</h1>
+                <h1>Our Lesson </h1>
             </header>
 
             <section class="profile-container">
                 <div class="profile-item">
                     <div class="profile-img"></div>
-                    <h2>Software Engineer</h2>
+                    <h2>Ship Type & Design</h2>
                 </div>
 
                 <div class="profile-item">
                     <div class="profile-img"></div>
-                    <h2>Software Engineer</h2>
+                    <h2>Naval Doctrine</h2>
                 </div>
 
                 <div class="profile-item">
                     <div class="profile-img"></div>
-                    <h2>Software Engineer</h2>
+                    <h2>Naval Technology</h2>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-img"></div>
+                    <h2>Naval Missions</h2>
                 </div>
             </section>
         </section>
 
         <section>
-            <form>
+            <header>
+                <h1>Message Us</h1>
+            </header>
 
-            </form>
-
-            <div></div>
+            <section>
+                <div>
+                    <div class="form-container">
+                        <div class="form">
+                          <form name="message-form" onsubmit="return validateform()">
+                            Nama: <input placeholder="Nama" type="text" name="nama" /><br />
+              
+                            Email anda :
+                            <input placeholder="Email" type="email" name="email-anda" /><br />
+              
+                            Pesan:
+                            <textarea placeholder="Pesan anda" name="pesan"></textarea><br />
+              
+                            <input type="submit" value="submit" />
+                          </form>
+                        </div>
+              
+                        <div class="output-form">
+                          <p>Nama: <span id="sender-nama"></span></p>
+                          <p>Email Anda: <span id="sender-email-anda"></span></p>
+                          <p>Pesan: <span id="sender-pesan"></span></p>
+                        </div>
+                      </div>
+            </section>
         </section>
     </main>
 
     <footer>
-        
+        <p>Made by Lutfi Raditya Warsono</p>
     </footer>
+
+    <script src="js\script.js"></script>
 </body>
 
 </html>
