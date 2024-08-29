@@ -41,7 +41,7 @@ function setSenderUI(nama, emailAnda, pesan) {
   
   function showDivs(n) {
     var i;
-    var x = document.getElementsByClassName("slide-img");
+    var x = document.getElementsByClassName("banner-img");
     if (n > x.length) {
       slideIndex = 1;
     }
