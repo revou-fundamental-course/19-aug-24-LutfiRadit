@@ -4,12 +4,34 @@ nav{
     justify-content: space-between;
 }
 
+.header-wrapper{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+    align-content: center;
+}
 
+@media only screen and (max-width: 425px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+    }   
+
+    .logo-icon{
+        margin-bottom: 14px;
+    }
+}
 
 .logo-icon{
     height: 48px;
     width: 48px;
-    background-image: url();
+    background-image: url(https://picsum.photos/1000);
     background-size: cover;
     border-radius: 50%;
 }
@@ -40,20 +62,21 @@ nav{
 .profile-container {
     display: flex;
     justify-content: space-around;
+    height: 200px;
 }
 
 .profile-item {
-    height: 100px;
+    height: 150px;
     text-align: -webkit-center;
 }
 
 .profile-img {
-    height: 50px;
+    height: 100px;
     background-image: url(https://picsum.photos/250);
     background-size: cover;
     background-position: center;
-    border-radius: 50%;
-    width: 50px;
+    border-radius: 100%;
+    width: 100px;
 }
 
 .message-us-container {

@@ -9,6 +9,9 @@
     //}
 //}
 
+let name = prompt("siapakah nama anda?", "")
+document.getElementById("name").innerHTML = name
+
 function setSenderUI(nama, emailAnda, pesan) {
     document.getElementById("sender-nama").innerHTML = nama;
     document.getElementById("sender-email-anda").innerHTML = emailAnda;
@@ -50,3 +53,6 @@ function setSenderUI(nama, emailAnda, pesan) {
     }
     x[slideIndex - 1].style.display = "block";
   }
+
+  
+  
